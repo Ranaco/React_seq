@@ -1,0 +1,31 @@
+.react_image{
+  height: 170px;
+  display: inline-block;
+  width: 170px;
+}
+
+#header{
+  font-size: 80px;
+  padding-left: 15%;
+}
+
+#list{
+  padding-left: 15%;
+  font-size: 30px;
+}
+
+#NavBar{
+  width: 100%;
+  font-size: 30px;
+  height: 200px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 16px 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#NavBar > div{/*
+    This is a way of styling all the divs in NavBar
+  */
+  padding-top: 80px;
+}
