@@ -2,10 +2,18 @@
     background-color: #4C566A;
     padding: 10px;
     height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
 }
 
 #head{
     padding-top: 10px;
     padding-left: 100px;
     font-size: 70px;
+}
+
+#sub{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 190px;
 }

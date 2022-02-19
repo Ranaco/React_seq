@@ -8,6 +8,9 @@ const NavBar = () => {
           <div id = "head">
              < logo />
               React Js
+          </div> 
+          <div id = "sub">
+            React course for beginners
           </div>
       </div>
     )
