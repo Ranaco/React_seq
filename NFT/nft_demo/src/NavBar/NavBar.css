@@ -1,0 +1,19 @@
+#base{
+  height: 20vh;
+  width: 100%;
+  color: #D8DEE9;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+  background-color: #434C5E;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 0px 20px #434C5E;
+}
+#address{
+  padding-top: 40px;
+  font-size: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-family: 'Roboto Mono', monospace;
+}
