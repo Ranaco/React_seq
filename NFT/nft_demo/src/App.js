@@ -23,7 +23,7 @@ const App = () => {
 
   const mint = async () => {
     if(color !== ''){
-      await contract.methods.mint((color.includes("#") ? "#"+color : color)).send({from: account}).once('receipt', (receipt) => {
+      await contract.methods.mint((color.includes("#") ? color : "#" + color)).send({from: account}).once('receipt', (receipt) => {
         let list = [...exisitingColors, color];
           setExisitingColors([...exisitingColors, ("#"+color)]);
           setTotalSupply(totalSupply + 1);
