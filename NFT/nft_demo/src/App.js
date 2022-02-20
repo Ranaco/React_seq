@@ -51,6 +51,7 @@ const App = () => {
     <div id='colors-tab' style={{display: 'flex', marginTop: 100}}>
         {exisitingColors.map((color, index) => (
           <div key={index} style = {{backgroundColor: color, height: "220px", width: "220px", marginLeft: index === 0 ? 130 : 50, borderRadius: 120}}>
+            <div>{color}</div>
           </div>
         ))}
     </div>
