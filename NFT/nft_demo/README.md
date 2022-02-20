@@ -2,7 +2,7 @@
     A marketplace for creating a custom color NFT.
 
 
-##Setup
+## Setup
     Clone the project;
     Run ``npm install``;
     Run ``truffl migrate``;
