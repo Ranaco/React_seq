@@ -3,11 +3,11 @@
 
 
 ## Setup
-    Clone the project;
-    Run `npm install`;
-    Run `truffl migrate`;
-    Connect your metamask with Ganache;
-    Run `npm start`;
+ - Clone the project;
+ -  Run `npm install`;
+ -  Run `truffl migrate`;
+ -  Connect your metamask with Ganache;
+ -  Run `npm start`;
     
 
 
