@@ -1,0 +1,75 @@
+#body-textfield{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#body-textfield > input{
+  font-size: 20px;
+  outline: none !important;
+  border-style: groove;
+  text-align: center;
+  border-width: 1px;
+  height: 40px;
+  width: 35%;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+#get-new-image{
+  margin: auto;
+  cursor: pointer;
+  user-select: none;
+  height: 60px;
+  width: 86%;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  line-height: 60px;
+  vertical-align: middle;
+  padding-top: auto;
+  background-image: linear-gradient(to right, rgb(103,34,128), rgb(165,38,210));
+}
+
+#joke-content{
+  margin-top: 40px;
+  text-align:center;
+  width: 60%;
+  color: white;
+  margin: auto;
+  position: relative;
+}
+
+#joke-content > img {
+  margin-top: 50px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#image-header > b{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;  
+  position: absolute;
+  font-size: 40px;
+
+}
+
+
+#footer {
+  text-align: center;
+  margin-left: 30%;
+}
+
+
+
+
+
+
+
+
+

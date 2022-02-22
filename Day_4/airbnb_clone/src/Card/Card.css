@@ -6,11 +6,12 @@
 
 #image-base{
   position: absolute;
+  flex-direction: column;
+  flex: 0 0 auto;
 }
 
 #card-base{
   padding-left: 30px;
-  overflow: scroll;
   user-select: none;
 }
 
