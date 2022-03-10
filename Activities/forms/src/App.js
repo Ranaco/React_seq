@@ -1,28 +1,29 @@
-import React from "react";
+import React from 'react';
 import './App.css';
 import { useState } from 'react';
 
 const App = () => {
-  
-  const [text, setText] = useState('');
 
-  const submitForm = (e) => {
-    e.preventDefault();  
-    console.log(e.target.elements.text);
+  const [data, setData] = useState(
+    { firstName: "", secondName: "" }
+  );
 
-  }
+  console.log(data);
 
-  const handleChange = (e) => {
-    e.preventDefault();
-    console.log(e.target.value);
-    setText(e.target.value);
+  const handleChange = (event) => {
+      setData(prevData => {
+        return {
+          ...prevData,
+          [event.target.name]: event.target.value,
+        }
+      })
   }
 
   return(
     <div>
-      <form onSubmit={submitForm}>
-        <input type = 'text' placeholder = "Text goes here" value  = {text} onChange = {handleChange}/>
-      <button type = 'submit' > Submit </button>  
+    <form>
+    <input type="text" name = "firstName" onChange = {handleChange} value={data.firstName}/>
+    <input type = "text" name = " secondName" onChange = {handleChange} value={data.secondName}/>
     </form>
     </div>
   )
